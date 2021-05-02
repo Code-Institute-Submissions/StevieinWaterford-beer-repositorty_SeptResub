@@ -38,3 +38,15 @@ h2 {
 #menu li {
     float: right;
 }
+
+
+/* hero-image*/
+
+#hero-image {
+    height: 1000px;
+    width: 100%;
+    background: url('../images/gettyimages-1041019480-2048x2048.jpeg');
+
+}
+
+< !-- Need to go back and resize the image -->
