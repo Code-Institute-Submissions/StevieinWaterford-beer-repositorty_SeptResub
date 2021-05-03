@@ -31,6 +31,10 @@ h2 {
 
 /* Nav bar*/
 
+section {
+    padding-top: 20px;
+}
+
 #menu {
     font-size: 80%;
     letter-spacing: 1px;
@@ -59,7 +63,7 @@ h2 {
 /* ethos and history */
 
 #ethos {
-    height: 1000px;
+    height: 600px;
 }
 
 #left-about {
