@@ -23,6 +23,7 @@ h2 {
 
 }
 
+
 #logo {
     text-align: center;
     font-size: 300%
@@ -33,8 +34,8 @@ h2 {
 #menu {
     font-size: 80%;
     letter-spacing: 1px;
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
     float: right;
 }
 
@@ -43,13 +44,40 @@ h2 {
 }
 
 
-/* hero-image*/
+/* hero-image and hero text*/
 
 #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/craft-beer-5412913_960_720.jpeg')no-repeat center center;
-
+    background-image: url('../images/craft-beer-5412913_960_720.jpeg');
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-< !-- Need to go back and resize the image -->
+
+/* ethos and history */
+
+#ethos {
+    height: 1000px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
