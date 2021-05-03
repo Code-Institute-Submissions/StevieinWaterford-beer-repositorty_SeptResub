@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    color: blueviolet;
+    color: black;
 }
 
 
@@ -19,7 +19,7 @@ h2 {
     font-family: Rum Raisin, sans -serif;
     text-transform: capitalize;
     letter-spacing: 5px;
-    color: black;
+    color: green;
 
 }
 
@@ -33,19 +33,22 @@ h2 {
 #menu {
     font-size: 80%;
     letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
 
 #menu li {
-    float: right;
+    display: inline;
 }
 
 
 /* hero-image*/
 
 #hero-image {
-    height: 1000px;
+    height: 600px;
     width: 100%;
-    background: url('../images/gettyimages-1041019480-2048x2048.jpeg');
+    background: url('../images/craft-beer-5412913_960_720.jpeg')no-repeat center center;
 
 }
 
