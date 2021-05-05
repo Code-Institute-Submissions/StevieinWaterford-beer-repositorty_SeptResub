@@ -35,6 +35,8 @@ section {
     padding-top: 20px;
 }
 
+
+
 #menu {
     font-size: 80%;
     letter-spacing: 1px;
@@ -48,40 +50,49 @@ section {
 }
 
 
-/* hero-image and hero text*/
+
+
+
+/* hero-image */
 
 #hero-image {
+    height: 800px;
+    width: 100%;
     background-image: url('../images/craft-beer-5412913_960_720.jpeg');
-    height: 700px;
-    background-position: center;
+    position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+
 }
+
+
+
+
 
 
 /* ethos and history */
 
 #ethos {
-    height: 600px;
+    height: 400px;
+    text-align: center;
 }
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
-    background-color: blue;
+
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: right;
-    background-color: silver;
+
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
+/* brand-image and cover text */
+
 }
+
+#brand-image
