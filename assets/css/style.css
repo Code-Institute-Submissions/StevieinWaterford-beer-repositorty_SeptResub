@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rum+Raisin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&display=swap');
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    color: black;
+    color: #3a3a3a;
 }
 
 
@@ -18,8 +18,9 @@ h1,
 h2 {
     font-family: Rum Raisin, sans -serif;
     text-transform: capitalize;
-    letter-spacing: 5px;
-    color: green;
+    letter-spacing: 10px;
+    color: #3a3a3a;
+    text-align: center;
 
 }
 
@@ -31,23 +32,48 @@ h2 {
 
 /* Nav bar*/
 
-section {
-    padding-top: 20px;
+
+nav {
+    width: 100%;
+    margin: 0;
+
 }
 
+nav ul {
+
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 
 
-#menu {
-    font-size: 80%;
-    letter-spacing: 1px;
-    margin: 5;
-    padding: 5;
+
+}
+
+ul.topnav li {
+    list-style: none;
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 10px;
+    min-height: 16px;
+    text-align: center;
+
+
+}
+
+ul.topnav li.topnav-right {
     float: right;
+
+
 }
 
-#menu li {
-    display: inline;
-}
+
+
+
+
+
+
+
 
 
 
@@ -91,8 +117,42 @@ section {
 
 }
 
-/* brand-image and cover text */
+/* brands-image */
+
+#brands-image {
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/e5673711dcd09a2d520bc68e13768958.jpeg');
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 
 }
 
-#brand-image
+
+/*Footer*/
+
+footer {
+    height: 100px;
+
+}
+
+ul.social-links {
+    text-align: center;
+}
+
+ul.social-links li {
+    display: inline;
+    padding: 10px;
+    min-height: 16px;
+
+}
+
+ul.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 10%;
+    color: #3a3a3a;
+}
