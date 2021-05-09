@@ -1,158 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Germania+One&display=swap')
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none
+/* Default settings  */
+nav,
+header,
+footer {
+    display: block;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    color: #3a3a3a;
+    line-height: 1;
+    margin: 0;
+    font-family: Germania One, cursive;
+    font-weight: 300;
+    color: #3a3a3a
 }
 
-
-/* Headings and Logo */
-h1,
-h2 {
-    font-family: Rum Raisin, sans -serif;
-    text-transform: capitalize;
-    letter-spacing: 10px;
-    color: #3a3a3a;
-    text-align: center;
-
-}
-
-
-#logo {
-    text-align: center;
-    font-size: 300%
-}
-
-/* Nav bar*/
-
-
+/* Nav Bar */
 nav {
     width: 100%;
     margin: 0;
-
 }
 
 nav ul {
-
+    background-color: rgba(165, 71, 42, 0.582);
     overflow: hidden;
     margin: 0;
-    padding: 0;
-
-
-
-}
-
-ul.topnav li {
-    list-style: none;
-    display: block;
-    float: left;
-    text-decoration: none;
-    padding: 10px;
-    min-height: 16px;
-    text-align: center;
 
 
 }
+
+
 
 ul.topnav li.topnav-right {
+    list-style: none;
     float: right;
+}
 
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 16px;
+    text-transform: uppercase;
+    color: #666;
+}
 
+/* headings and logo  */
+
+h1,
+h2 {
+    font-family: Dosis;
+    sans serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+
+}
+
+#logo {
+    float: left;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* hero-image */
+/* hero-image   text block */
 
 #hero-image {
     height: 800px;
-    width: 100%;
-    background-image: url('../images/craft-beer-5412913_960_720.jpeg');
-    position: center;
-    background-repeat: no-repeat;
+    background-image: url('../images/istockphoto-1041019480-612x612.jpeg');
     background-size: cover;
-
-}
-
-
-
-
-
-
-/* ethos and history */
-
-#ethos {
-    height: 400px;
-    text-align: center;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
-
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
-
-}
-
-/* brands-image */
-
-#brands-image {
-    height: 500px;
-    width: 100%;
-    background-image: url('../images/e5673711dcd09a2d520bc68e13768958.jpeg');
-    position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-
-
+    background-position: center;
 
 }
 
-
-/*Footer*/
-
-footer {
-    height: 100px;
-
+#text-block {
+    position: absolute;
+    max-width: 30%;
+    top: 100px;
+    right: 100px;
+    background-color: rgba(165, 71, 42, 0.582);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-ul.social-links {
-    text-align: center;
-}
 
-ul.social-links li {
-    display: inline;
-    padding: 10px;
-    min-height: 16px;
 
-}
 
-ul.social-links i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 10%;
-    color: #3a3a3a;
+
+
+
 }
