@@ -19,6 +19,7 @@ body {
 nav {
     width: 100%;
     margin: 0;
+    float: right;
 }
 
 nav ul {
@@ -33,7 +34,9 @@ nav ul {
 
 ul.topnav li.topnav-right {
     list-style: none;
-    float: right;
+    display: inline-block;
+
+
 }
 
 ul.topnav li a {
@@ -67,7 +70,7 @@ h2 {
 /* hero-image   text block */
 
 #hero-image {
-    height: 800px;
+    height: 900px;
     background-image: url('../images/istockphoto-1041019480-612x612.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,15 +78,77 @@ h2 {
 
 }
 
-#text-block {
+
+#text-block1 {
     position: absolute;
     max-width: 30%;
     top: 100px;
     right: 100px;
     background-color: rgba(165, 71, 42, 0.582);
     color: white;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#text-block2 {
+    position: absolute;
+    max-width: 30%;
+    top: 300px;
+    right: 100px;
+    background-color: rgba(175, 52, 14, 0.582);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+/* brands  */
+
+#top-brands {
+    height: 500px;
+    background-color: rgba(165, 71, 42, 0.582);
+
+}
+
+/*  
+
+#selection {
+    margin-top: 20px;
+    position: absolute;
+    max-width: 30%;
+
+
+}
+
+#h1 {
+    text-align: center;
+}
+*/
+
+.circle1 {
+    height: 300px;
+    width: 300px;
+    background-color: (212, 14, 14);
+    background-image: url('../images/0.-Featured_3075.jpg');
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40px;
+
+
+}
+
+.circle2 {
+    height: 300px;
+    width: 300px;
+    background-color: (212, 14, 14);
+    background-image: url('../images/0.-Featured_3075.jpg');
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 40px;
+
 }
 
 
@@ -92,4 +157,130 @@ h2 {
 
 
 
+
+
+
+
+/*  
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
 }
+
+#circle-container1 {
+
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/Westvleteren_XII_900.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    float: left;
+
+
+}
+
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/Westvleteren_XII_900.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+
+/* 
+
+.circle {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/Westvleteren_XII_900.jpeg');
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 1px;
+    border: 8px solid orange;
+    margin-left: 30px;
+    position: absolute;
+    background-position: center;
+
+}
+
+
+
+
+. .circle {
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/Westvleteren_XII_900.jpeg');
+    background-repeat: no repeat;
+    border-radius: 50%;
+    padding: 1px;
+    border: 8px solid orange;
+    margin-left: 30px;
+    position: absolute;
+    background-position: center;
+
+}
+
+ */
+
+
+
+
+
+/*  
+#circle-container1 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 15px;
+
+}
+
+#circle-container {
+
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 15px;
+    */
