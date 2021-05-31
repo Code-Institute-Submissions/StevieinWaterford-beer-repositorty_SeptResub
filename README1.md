@@ -4,6 +4,8 @@
 
 
  ## Images
+ ![Image of cats]
+ (de-maeght.jpeg)
 
  
 
