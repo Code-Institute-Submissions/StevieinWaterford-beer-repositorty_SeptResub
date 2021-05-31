@@ -46,7 +46,6 @@ https://fontawesome.com
 
 https://fonts.google.com
 
-https://www.google.com/maps
 
 
 ## Testing 
@@ -100,7 +99,7 @@ I made use of https://www.jimdo.com/.com
 
   https://googleimages.ie
 
-  https://www.google.com/maps
+
 
 
 
