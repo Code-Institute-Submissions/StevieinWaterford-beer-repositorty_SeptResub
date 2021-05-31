@@ -4,13 +4,13 @@
 
 
  ## Images
- ![Image of cats]
- (de-maeght.jpeg)
+ ![Image of website](assets/images/website.png)
+
 
  
 
  
-## Balsamiq Wireframes 
+## Balsamiq Wireframes
 
 
 
