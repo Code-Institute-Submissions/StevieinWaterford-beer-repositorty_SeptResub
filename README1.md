@@ -11,6 +11,7 @@
 
  
 ## Balsamiq Wireframes
+[Wireframe Balsamiq project](assets/wireframes/Alan%20beer%20project.bmpr)
 
 
 
@@ -56,7 +57,22 @@ Started with a mobile frst approach and used DEV Tools to test compatability wit
 
 ## Bugs
 
-In the social links colums I  coud nor delete the  bullet points in the unordered list. I tried  applting display none but this would not delete them.
+
+
+
+On one of the pages the margin of the h1 element had user agent margin top of 35px and bottom of 35px, I wanted to make sure this was not the case so I overrode this in the stylesheet
+
+
+`h1 {
+margin-block-start: 0;
+margin-block-end: 0;
+}`
+
+
+
+
+
+
 
 
 
