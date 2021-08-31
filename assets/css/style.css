@@ -10,6 +10,7 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+
 }
 
 header {
@@ -20,6 +21,8 @@ header {
     border-top: 3px solid #e8491d;
     border-bottom: 3px solid #e8491d;
 }
+
+
 
 header a {
     color: #ffffff;
@@ -32,7 +35,7 @@ header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
-
+    color: #e8491d;
 }
 
 header #logo {
@@ -46,12 +49,15 @@ header #logo h1 {
 header nav {
     float: right;
     margin-top: 10px;
+
 }
 
 header a:hover {
     color: #000000;
     font-weight: bold;
+
 }
+
 
 
 .hop-logo {
