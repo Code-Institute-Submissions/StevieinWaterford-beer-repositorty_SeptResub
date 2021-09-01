@@ -34,9 +34,15 @@ header a {
 header li {
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
-    color: #e8491d;
+    padding: 0 40px 0 40px;
+
 }
+
+.current {
+    background-color: #e8491d;
+}
+
+
 
 header #logo {
     float: left;

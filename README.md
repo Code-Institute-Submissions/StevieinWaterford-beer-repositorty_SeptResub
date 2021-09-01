@@ -20,7 +20,6 @@
 * [Scope](#scope)
 * [Structure](#structure)
 * [Wireframes](#wireframes)
-  + [Changes](#changes-to-wireframes)
 * [Features](#features)
 * [Technologies](#technologies)
 * [Testing](#testing)
@@ -100,16 +99,19 @@ https://validator.w3.org
 
 https://jigsaw.w3.org/css-validator
 
+https://developer.mozilla.org
+
 
 
 
 
 ## Testing 
 
-Started with a mobile frst approach and used DEV Tools to test compatability with all devices as much as possible. I checked HTML and CSS  through the validators  with no issues of concern
+Started with a mobile frst approach and used DEV Tools to test compatability with all devices as much as possible. I checked HTML and CSS  through the validators  with no  real issues of concern
 
 * The Website was tested on Google Chrome, Internet Explorer.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5, iPhone6, iPhone7 and iPhone8.
+* This website is also compatible with iPad  and iPad Pro
 * A large amount of testing was done to ensure that all sections were linking correctly.
 
 
@@ -117,13 +119,15 @@ Started with a mobile frst approach and used DEV Tools to test compatability wit
 ## Bugs
 
 
-On one of the pages the margin of the h1 element had user agent margin top of 35px and bottom of 35px, I wanted to make sure this was not the case so I overrode this in the stylesheet
-
+On one of the pages the margin of the h1 element had user agent margin top of 35px and bottom of 35px, I wanted to make sure this was not the case so I overrode this in the stylesheet. 
 
 `h1 {
 margin-block-start: 0;
 margin-block-end: 0;
+
 }`
+
+I renamed my image files and forgot to apply these changes in html which led to  thumbnail images. This led to frustration until I realised it was an oversight on mu behalf which I rectified in due course.
 
 
 
@@ -146,7 +150,6 @@ This project is deployed using gitpod and github pages.  Github was used to writ
 
 3. Click the pages tab.
 
-
 4. Set source branch to master. This created a link to the
 deployed version of the website.
 
@@ -155,7 +158,18 @@ deployed version of the website.
 
 I made use of https://www.jimdo.com/.com
 
-  https://googleimages.ie
+https://googleimages.ie
+
+https://youtu.be/Wm6CUkswsNw
+
+https://www.youtube.com/watch?v=bn-DQCifeQQ
+
+https://www.nerdwallet.com/article/travel/top-10-beers-to-try-in-germany
+
+https://www.finestbelgianbeers.com/en/the-finest-belgian-beers-webshop
+
+
+
 
 
 
