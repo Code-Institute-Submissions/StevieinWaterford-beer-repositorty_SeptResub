@@ -71,8 +71,9 @@ This is a three page website, The first page is a homepage which gives a brief s
 
 
 ## Balsamiq Wireframes
-[Wireframe Balsamiq project](assets/wireframes/Alan%20beer%20project.bmpr)
-
+![Screenshot 2021-09-02 at 21 14 51](https://user-images.githubusercontent.com/80770819/131910113-6eb79a96-4565-4534-a5de-3ceb93d233ab.png)
+![Screenshot 2021-09-02 at 21 14 51](https://user-images.githubusercontent.com/80770819/131910123-24735057-0a6f-494d-8939-ec9629fa6476.png)
+![Screenshot 2021-09-02 at 21 15 01](https://user-images.githubusercontent.com/80770819/131910143-4add6822-9d8d-4883-bc5d-fce1c12aee9f.png)
 
 ## Technology
 
