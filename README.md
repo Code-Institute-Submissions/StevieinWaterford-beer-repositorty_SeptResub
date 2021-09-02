@@ -9,7 +9,7 @@
 
 
  ## showcase
- ![Showcase-screenshot](assets/images/home_page_desktop.JPG)
+ ![screenshot-project](https://user-images.githubusercontent.com/80770819/131898446-7826018d-145c-4720-90a3-a64c684479f1.png)
  
 
 
