@@ -6,8 +6,11 @@
  This website is a hypothetical sit in off licence in Waterford . It's USP is that it stocks and serves a wide variety of continental beers. The Beer Station also runs a beer sampling course . It's a novel idea which will hopefully educate discerning customers on a huge range of imported artisnal beers from Belgium and Germany.
 
 
- ## Images
- ![Image of website](assets/images/website.png)
+
+
+ ## showcase
+ ![Showcase-screenshot](assets/images/home_page_desktop.JPG)
+ 
 
 
  ## navigation
@@ -16,34 +19,31 @@
   + [UX-stories](#ux-stories)
 * [Strategy](#strategy)
   + [User-needs](#user-needs)
-  + [Business-vision](#business-vision)
+  + [Corporate-vision](#corporate-vision)
 * [Scope](#scope)
 * [Structure](#structure)
 * [Wireframes](#wireframes)
-* [Features](#features)
-* [Technologies](#technologies)
+* [Technology](#technology)
 * [Testing](#testing)
-  + [Testing-plan](#testing-plan)
   + [Implementation](#implementation)
   + [Results](#results)
 * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
-* [Content](#content)
 * [Media](#media)
 * [Acknowledgements](#acknowledgements)
 
 
 ## UX
 
-User stories
+
 ## First time visitor goals
 
 This website is to satisfy the needs of customers in making informed decisions when choosing continental style beers. The beer station is unique to Waterford, but we feel that our customer base is knowledgeable enough and well travelled enough to satisfy their demands.
 * The aim of this website is to introduce a selection of new beers for our customrs to familaiarise themselves with on a weekly basis, thus expanding their knowlede base.
-* We also provide a free beer sampling course to instil an appreciation for out products.
+* We also provide a free beer sampling course to instill an appreciation for out products.
 
-### UX stories
+## Strategy
 
 * As a user of this site I want to know about new and exciting beers that customers can sample on a regulat basis.
 * I want to gain the knowlege and insigt into which beers should look out for.
@@ -53,6 +53,11 @@ This website is to satisfy the needs of customers in making informed decisions w
 ### User Needs
 
 As a user the site has to be accessible on mobile, tablet and all browsers. Information should be clear to read, informative and helpful. The site navigation needs to be optimal to move to the preferred section of the user.
+
+### Corporate Vision
+
+The vision is to introduce new beers to the South East Market and to grow and develop out business from there. I feel that this area of the country hasbeen overlooked for far too long. If this business model proves to be sucessful there is no reason we cant expand in future.
+
 
 ## Scope
 
@@ -73,7 +78,7 @@ HTML 5
 
 CSS 3
 
-### Libraries and On-line Resources
+## Libraries and On-line Resources
 
 * Google Chrome DEV Tools for testing purposes
 * My chosen fonts [Google Fonts}](https://fonts.google.com/).
@@ -109,17 +114,45 @@ https://developer.mozilla.org
 
 Started with a mobile frst approach and used DEV Tools to test compatability with all devices as much as possible. I checked HTML and CSS  through the validators  with no  real issues of concern
 
-* The Website was tested on Google Chrome, Internet Explorer.
+### Implementation
+
+* The Website was tested on Google Chrome.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5, iPhone6, iPhone7 and iPhone8.
 * This website is also compatible with iPad  and iPad Pro
 * A large amount of testing was done to ensure that all sections were linking correctly.
+
+### Results
+
+* I had the following issues when running my code through the CSS and HTMl validators.
+
+   * The sign-up.html page threw up two warnings 
+
+   1) Consider using the h1 element as a top-level heading only.  From line 46, column 17; to line 46, column 20
+
+   2) Section lacks heading. 
+   From line 43, column 5; to line 43, column 29.
+
+   * My CSS threw up the following warning 
+   1) Imported style sheets are not checked in direct input and file upload modes.
+
+
+
+
+
 
 
 
 ## Bugs
 
+I renamed it from section id to div id on line  43 . This passed with no issue.
+*  HTML -validator results: [index.html] (/workspace/assets/images/updated-screenshot..png)
 
-On one of the pages the margin of the h1 element had user agent margin top of 35px and bottom of 35px, I wanted to make sure this was not the case so I overrode this in the stylesheet. 
+* I managed to put quotes around font family names which eliminated a warning. I was told by Tutor support not to worry about Imported 
+Style Sheets as they are not checke.
+
+
+
+On one of the pages the margin of the h1 element had user agent margin top of 35px and bottom of 35px, I wanted to make sure this was not the case so I overrode this in the stylesheet in my first attempt at the project.
 
 `h1 {
 margin-block-start: 0;
@@ -127,15 +160,15 @@ margin-block-end: 0;
 
 }`
 
-I renamed my image files and forgot to apply these changes in html which led to  thumbnail images. This led to frustration until I realised it was an oversight on mu behalf which I rectified in due course.
+I re-named my image files and forgot to apply these changes in html which led to thumbnail images. This led to frustration until I realised it was an oversight on mu behalf which I rectified in due course.
 
 
+## Credits
 
+• Font Awesome for their use of icons [Fontawesome](https://fontawesome.com/)
 
-
-
-
-
+• Code Institute for README.md template
+[README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
 
 
 
@@ -150,13 +183,12 @@ This project is deployed using gitpod and github pages.  Github was used to writ
 
 3. Click the pages tab.
 
-4. Set source branch to master. This created a link to the
-deployed version of the website.
+4. Set source branch to master. This created a link to the deployed version of the website.
 
 
 ## Media
 
-I made use of https://www.jimdo.com/.com
+I made use of https://www.jimdo.com
 
 https://googleimages.ie
 
@@ -178,5 +210,10 @@ https://www.finestbelgianbeers.com/en/the-finest-belgian-beers-webshop
 
 ## Acknowledgements
 
-Although I went solo on this project I'd like to thank my mentor Rohit Sharma. In hindsight I should have had availed more  from his advice, but grateful for his input none the less.
+I wish to thank y mentor Rohit Shaerma who provided me with insights into my resubmission. In hindsight I should have had availed more of his advice, but grateful for his input none the less and will be sure to avail of his expertise going forward.
 I'd also like to thank my class mates in the program for their input, this project consumed a great deal of my time and effort and I appreciated the fact that many of us were/are in the same boat as novices. I'd also like to thank my brother in law for looking over my project and helping with some of the finer detail.
+
+
+**This project was created for educational purposes only, credit for all images goes to their owners**
+
+**Created by Alan Stephenson**

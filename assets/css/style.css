@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway&display=swap');
 
 body {
-    font: 15px Raleway, sans-serif;
+    font: 15px "Raleway, sans-serif";
     padding: 5px;
     margin: 10px;
 }
@@ -13,6 +13,7 @@ body {
 
 }
 
+
 header {
     background-color: rgb(92, 168, 130, 0.438);
     color: #ffffff;
@@ -20,8 +21,9 @@ header {
     min-height: 70px;
     border-top: 3px solid #e8491d;
     border-bottom: 3px solid #e8491d;
-}
 
+
+}
 
 
 header a {
@@ -54,9 +56,11 @@ header #logo h1 {
 
 header nav {
     float: right;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
+
+
 
 header a:hover {
     color: #000000;
@@ -72,7 +76,7 @@ header a:hover {
 
 h1,
 h2 {
-    font-family: Dosis, sans serif;
+    font-family: "Dosis, sans serif";
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
@@ -85,7 +89,10 @@ h2 {
     background-position: center;
     position: relative;
     height: 100vh;
+
+
 }
+
 
 .logo {
     width: 200px;
@@ -121,7 +128,7 @@ h1 {
 
 #cover-text {
     font-size: 120%;
-    font-family: Dosis, sans-serif;
+    font-family: "Dosis, sans-serif";
     text-transform: uppercase;
     letter-spacing: 3px;
     width: 300px;
