@@ -9,7 +9,9 @@
 
 
  ## showcase
- ![screenshot-project](https://user-images.githubusercontent.com/80770819/131898446-7826018d-145c-4720-90a3-a64c684479f1.png)
+ ![Screenshot 2021-09-02 at 20 23 49](https://user-images.githubusercontent.com/80770819/131904836-e9926c96-3255-470c-9597-3ae05f6ab139.png)
+![Screenshot 2021-09-02 at 20 26 33](https://user-images.githubusercontent.com/80770819/131904851-d7ce82b0-f7ef-4dac-bbdf-37d9250960f0.png)
+![Screenshot 2021-09-02 at 20 25 17](https://user-images.githubusercontent.com/80770819/131904865-8b0ebb00-9958-4fd0-9436-f1dad4d33f7b.png)
  
 
 
